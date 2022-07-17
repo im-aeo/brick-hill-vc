@@ -1,6 +1,6 @@
 let sLocked = false;
-var allowed = [3, 200737]; // permenent allowed users
-var admins = [1, 102255];
+var allowed = [3, 200737, 405000]; // permenent allowed users
+var admins = [1, 102255, 405000];
 
 Game.on("playerJoin", (player) => {
   if (sLocked == true) {
